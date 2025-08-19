@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -23,13 +24,15 @@ img {
 
 .item{
 
-  width:200px;
+ /* width:200p; Should have used max width, text-align center should have gone in body and this would have made .iten img unneccessary*/
+  max-width: 200px;;
 }
-
+/*
 .item img{
 
   margin-left: 50px;
 }
+  */
 
 .text{
 
